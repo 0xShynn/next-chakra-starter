@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky install",
-    "pre-commit": "next lint"
+    "pre-commit": "next lint --fix && git add -A ."
   },
   "dependencies": {
     "@chakra-ui/react": "^1.6.7",
@@ -22,7 +22,9 @@
   "devDependencies": {
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
+    "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.24.2",
-    "husky": "^7.0.0"
+    "husky": "^7.0.2",
+    "prettier": "^2.3.2"
   }
 }

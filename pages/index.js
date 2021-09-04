@@ -1,6 +1,6 @@
-import { Box, Flex, Heading, Link, SimpleGrid, Text } from '@chakra-ui/layout';
-import Head from 'next/head';
-import Image from 'next/image';
+import { Box, Flex, Heading, Link, SimpleGrid, Text } from '@chakra-ui/layout'
+import Head from 'next/head'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -85,5 +85,5 @@ export default function Home() {
         </Flex>
       </Box>
     </Box>
-  );
+  )
 }
