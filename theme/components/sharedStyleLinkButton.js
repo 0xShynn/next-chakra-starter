@@ -1,6 +1,6 @@
 export const sharedBaseStyle = {
   // Write here some shared `base style` between Link and Button components
-};
+}
 
 export const light = {
   light: {
@@ -9,7 +9,7 @@ export const light = {
       _hover: {},
     },
   },
-};
+}
 
 export const dark = {
   dark: {
@@ -18,6 +18,6 @@ export const dark = {
       _hover: {},
     },
   },
-};
+}
 
 // Add new shared variants here and don't forget to import them inside > theme/components/`component`.js

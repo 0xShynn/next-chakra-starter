@@ -4,6 +4,6 @@ const breakpoints = {
   lg: '1024px',
   xl: '1440px',
   '2xl': '1920px',
-};
+}
 
-export default breakpoints;
+export default breakpoints

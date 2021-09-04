@@ -7,6 +7,6 @@ const text = {
   variants: {},
   // default values for `size` and `variant`
   defaultProps: {},
-};
+}
 
-export default text;
+export default text

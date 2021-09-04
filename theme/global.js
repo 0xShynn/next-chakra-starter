@@ -6,6 +6,6 @@ const global = {
       fontFamily: 'body',
     },
   },
-};
+}
 
-export default global;
+export default global

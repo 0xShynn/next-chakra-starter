@@ -1,6 +1,6 @@
 const colors = {
   primary: {},
   secondary: {},
-};
+}
 
-export default colors;
+export default colors
