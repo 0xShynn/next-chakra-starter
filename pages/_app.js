@@ -1,8 +1,9 @@
 import { ChakraProvider } from '@chakra-ui/react';
+import overrides from '../theme/index';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ChakraProvider>
+    <ChakraProvider theme={overrides}>
       <Component {...pageProps} />
     </ChakraProvider>
   );
