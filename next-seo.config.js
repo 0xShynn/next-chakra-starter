@@ -1,3 +1,6 @@
+// More info on https://github.com/garmeeh/next-seo#readme
+
+// Edit the canonical url
 const canonicalUrl = ''
 
 // Edit the default title

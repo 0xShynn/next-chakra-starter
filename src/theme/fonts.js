@@ -1,6 +1,7 @@
 const fonts = {
-  // heading: 'Spartan',
-  // body: 'Roboto',
+  // add fonts from https://fontsource.org
+  heading: 'sans-serif',
+  body: 'sans-serif',
 }
 
 export default fonts
