@@ -4,7 +4,8 @@
 const canonicalUrl = ''
 
 // Edit the default title
-const defaultTitle = 'Site title'
+const defaultTitle = 'Default title'
+const defaultDescription = 'Default description'
 
 // Edit the SEO parameters
 export const SEO = {
@@ -54,6 +55,7 @@ export const SEO = {
   ],
   openGraph: {
     title: defaultTitle,
+    description: defaultDescription,
     type: 'website',
     locale: 'en_IE',
     url: canonicalUrl,

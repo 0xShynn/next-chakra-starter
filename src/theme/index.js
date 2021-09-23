@@ -1,3 +1,4 @@
+// Docs : https://chakra-ui.com/docs/theming/customize-theme#scaling-out-your-project
 // theme/index.js
 import { extendTheme } from '@chakra-ui/react'
 
