@@ -59,6 +59,15 @@ export const SEO = {
     type: 'website',
     locale: 'en_IE',
     url: canonicalUrl,
+    images: [
+      {
+        // Add your custom image for sharing
+        url: 'https://via.placeholder.com/1200x630',
+        width: 1200,
+        height: 630,
+        alt: 'Preview of the website',
+      },
+    ],
   },
   // Edit the twitter info or delete
   twitter: {
