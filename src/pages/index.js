@@ -2,7 +2,7 @@ import { Box, Flex, Heading, Link, SimpleGrid, Text } from '@chakra-ui/layout'
 import { NextSeo } from 'next-seo'
 import Image from 'next/image'
 
-import Header from '../components/Header'
+import Header from '../components/shared/Header'
 
 export default function Home() {
   return (

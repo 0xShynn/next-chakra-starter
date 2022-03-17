@@ -12,9 +12,9 @@ import {
 import NextLink from 'next/link'
 import { IoCloseSharp, IoLogoVue, IoMenuSharp } from 'react-icons/io5'
 
-import { globals } from '../constants'
+import { globals } from '../../constants'
 
-import MaxContainer from './shared/MaxContainer'
+import MaxContainer from './MaxContainer'
 
 const Header = () => {
   const { isOpen, onOpen, onClose } = useDisclosure()
