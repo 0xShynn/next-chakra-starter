@@ -4,8 +4,11 @@ const global = {
   body: {
     fontSize: '16px',
     fontFamily: 'body',
-    bg: 'white',
+    bg: 'black',
   },
+  // '*': {
+  //   border: '1px solid red',
+  // },
 }
 
 export default global

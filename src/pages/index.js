@@ -2,12 +2,15 @@ import { Box, Flex, Heading, Link, SimpleGrid, Text } from '@chakra-ui/layout'
 import { NextSeo } from 'next-seo'
 import Image from 'next/image'
 
+import Header from '../components/Header'
+
 export default function Home() {
   return (
     <Box>
       {/* Edit the Head info */}
       <NextSeo title="Home" description="Description" />
 
+      <Header />
       <Flex
         role="main"
         bg="white"
